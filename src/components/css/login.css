@@ -78,3 +78,20 @@
     text-decoration:none;
     color: red;
 }
+.infoBtn{
+    height: 20px;
+    color: rgb(245, 187, 187);
+    background-color: rgba(255, 0, 0, 0.589);
+    border: 1px solid rgba(248, 243, 243, 0.459);
+    border-radius: 5px;
+    width: 50px;
+}
+.infoBtn:focus{
+    outline: 0;
+    
+}
+.infoBtn:hover{
+    background-color: coral;
+    width: 90px;
+    transition-duration: 1s;
+}

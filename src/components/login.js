@@ -43,7 +43,7 @@ const Login = ({small,setUserDetails,setuserErr,userErr}) => {
                     </Link>
                 </div>
                 <div style={{marginTop:"10px"}}>
-                    <button className="infoBtn" onClick={()=>setShow(!show)}>INFO</button>
+                    <button className="infoBtn"  onClick={()=>setShow(!show)}>INFO</button>
                     <div style={{color:"skyblue",border:"2px solid red",borderRadius:"10px"}} hidden={show}>
                           * This is a simple messenger.<br/><br/>
                           * Text messages only(more features coming soon)<br/><br/>
