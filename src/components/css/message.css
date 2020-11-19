@@ -1,0 +1,45 @@
+.message{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: blanchedalmond;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-x: scroll;
+
+}
+
+.message>p{
+    margin-top: 19px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+.message-snd{
+    display: flex;
+    justify-self:end ;
+    
+    margin-top: 20px;
+    margin-left: 39%;
+    background-color: rgb(192, 245, 132);
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-x: scroll;
+    
+    
+
+}
+.message::-webkit-scrollbar{
+    display: none;
+    
+}
+.message-snd::-webkit-scrollbar{
+    display: none;
+    
+}
+.message-snd>p{
+    margin-top: 19px;
+    margin-left: 25px;
+    font-size: 15px;
+}

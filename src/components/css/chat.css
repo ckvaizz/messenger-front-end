@@ -1,0 +1,104 @@
+.chat{
+    height: 90vh;
+   
+    z-index: 2;
+    border-radius: 20px;
+    transition: all 0.9ms ease-out;
+}
+.chat--mobile{
+    height: 99vh;
+    width: 97%;
+    margin: auto;
+   
+}
+.chat_head{
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding:10px ;
+   
+    height: 80px;
+    background-color: rgb(78, 78, 78);
+    transition: all 0.9ms ease-out;
+}
+.chat_head>h2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.chat_body{
+    background-color: rgb(134, 134, 134);
+    height: 63vh;
+    overflow-y: auto;
+    transition: all 0.9ms ease-out;
+
+}
+.chat_body--mobile{
+    background-color: rgb(134, 134, 134);
+    height: 73vh;
+    overflow-y: auto;
+    transition: all 0.9ms ease-out;
+}
+.chat_body::-webkit-scrollbar{
+    display: none;
+}
+.chat_bottum{
+    background-color: rgb(68, 71, 62);
+    height: 10vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.chat_bottum--mobile{
+    margin-bottom: 0%;
+    background-color: rgb(68, 71, 62);
+    height:10vh ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.chat_bottum--mobile>form{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.chat_bottum--mobile > form > input{
+    width: 60%;
+    
+    margin: auto;
+    height: 5vh;
+    border-radius: 30px;
+}
+
+.chat_bottum>form{
+    background-color: transparent;
+    height:10vh;
+
+
+}
+.chat_bottum>form>input{
+    border: none;
+   
+    height: 5vh;
+    border-radius: 30px;
+}
+.send-btn {
+    border: none;
+    background-color: transparent;
+
+    
+}
+.send-btn--mobile{
+    height: 7vh;
+    width: 6vh;
+    background-color: transparent;
+    border: none;
+}
+.send-btn--mobile,.chat_bottum--mobile>form>input:focus{
+    outline: 0;
+}
+.send-btn:focus{
+    outline: 0;
+}
+.chat_bottum>form>input:focus{
+    outline:0;
+}

@@ -1,0 +1,40 @@
+.box{
+    display: flex;
+    background-color: rgba(158, 75, 75, 0.452);
+    height: 60px ;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+
+   
+   
+}
+.box>h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+}
+.box:hover{
+    background-color: rgb(123, 149, 195);
+}
+.box--mobile{
+    display: flex;
+    
+    background-color: rgba(158, 75, 75, 0.452);
+    height: 95px;
+    border-radius: 20px;
+    margin: 10px;
+    padding-top: 25px;
+    padding-left: 10px;
+    
+}
+.box--mobile >h2{
+    margin-top:10px ;
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.box--mobile:hover{
+    background-color: cornflowerblue;
+}

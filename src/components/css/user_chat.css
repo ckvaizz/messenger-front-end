@@ -1,0 +1,77 @@
+.main{
+    box-shadow: 0px 0px 4px 5px rgba(224, 221, 221, 0.2);
+    height:91vh;
+    border-radius:20px ;
+}
+.top{
+    display: flex;
+    height: 10vh;
+    background-color: rgb(54, 53, 49);
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.top > Avatar{
+    height: 50px;
+}
+.top >h2{
+    padding-left: 30px;
+    padding-top: 15px;
+   
+}
+.top--mobile{
+    display: flex;
+    height: 13vh;
+    background-color: rgb(54, 53, 49);
+    padding-top:15px ;
+    padding-left: 15px;
+    
+}
+.top--mobile > h2{
+padding-left: 25px;
+padding-top: 5px;
+font-size: 34px;
+}
+.user_List{
+    background-color: rgb(83, 70, 70);
+    width: 308px;
+    height: 72vh;
+    overflow-y: scroll;
+    padding-top: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.user_List::-webkit-scrollbar{
+    display: none;
+    
+}
+.search-div{
+    background-color: blanchedalmond;
+    justify-items: right;
+   
+    
+   
+   
+   
+}
+.search-div>input{
+    border-radius: 20px;
+    background-color: rgb(166, 180, 166);
+    border: none;
+    margin-left: 32%;
+    padding-left: 10px;
+    
+
+}
+
+.search-div>input:focus{
+    outline: 0;
+}
+.user_List--mobile{
+    height: 77vh;
+    overflow-y: scroll;
+    padding-top: 10px;
+    background-color: rgba(70, 63, 77, 0.719);
+}
+
